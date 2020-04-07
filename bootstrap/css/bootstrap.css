@@ -9020,3 +9020,38 @@ a.text-dark:hover, a.text-dark:focus {
    text-align: center;
    color: rgb(141, 138, 138);
  }
+ .nav-link {
+   color: #20c997;
+   padding: 0;
+ }
+
+
+@media (max-width: 1199px) {
+  .display-3 {
+    font-size: 3.5rem;
+  }
+
+}
+
+@media (max-width: 991px) {
+  .display-3 {
+    font-size: 3rem;
+  }
+  .col-md-12 {;
+    padding: 0 15px 20px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .header {
+    height: 300px;
+  }
+  .display-3 {
+    font-size: 2.5rem;
+  }
+  
+
+}
+
+

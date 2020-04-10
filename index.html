@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
     <meta name="robots" content="none"/>
 
     <!-- Bootstrap CSS -->
@@ -28,11 +30,11 @@
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           
           <li class="nav-item">
-            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+            <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true">Contact</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
@@ -60,7 +62,7 @@
         <div class="row">
         <div class="col-lg-3 order-3 order-lg-1">
           <div class="card mb-4">
-          <img src="img/author.jpg" class="card-img-top" alt="...">
+          <img src="img/author.jpg" class="card-img-top" id="about" alt="...">
           <div class="card-body">
             <h5 class="card-title">About me</h5>
             <p class="card-text">Some quick example text to build 
@@ -188,7 +190,7 @@
               aliquam? </p>
           </div>
           <div class="col-lg-4 col-md-6">
-            <h4>Contacts</h4>
+            <h4 id="contact">Contacts</h4>
             <address>
               <b>Twitter, Inc.</b><br>
               1355 Market St, Suite 900 <br>
@@ -200,8 +202,8 @@
             <h4>Navigation</h4>
             <nav class="nav flex-column">
               <a class="nav-link active" href="#">Home</a>
-              <a class="nav-link" href="#">About</a>
-              <a class="nav-link" href="#">Contacts</a>
+              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="#contact">Contacts</a>
             </nav>
           </div>
 
@@ -212,7 +214,7 @@
 
     <div class="copyright">
       <div class="container">
-        <img src="img/logo.png" alt="Logo">
+        <a href="#"><img src="img/logo.png" alt="Logo"></a> 
         <div>@ Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
 
       </div>
